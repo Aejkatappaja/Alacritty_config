@@ -1,10 +1,10 @@
-
 live_config_reload: true
 
 env:
   TERM: xterm-256color
 
 window:
+  decorations: buttonless
   opacity: 0.9
   dynamic_padding: false
   padding:
@@ -25,11 +25,9 @@ font:
     family: "SFMono Nerd Font"
     style: Heavy Italic
   size: 14.0
-  
+
   key_bindings:
     - { key: T, mods: Command, chars: "\x02\x63" }
- 
+
 import:
   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
-
-
